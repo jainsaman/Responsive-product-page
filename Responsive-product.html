@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Responsive Product Page</title>
+        <meta name="description" content="This is a sample Repsonsive product page.">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="images/favicon.ico" rel="icon">
+        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Girassol">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Girassol">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mate+SC">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    </head>
+    <body>
+        <nav>
+            <div class="sidenav" id="mysidenav">
+                <a href="#" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+                <a href="#" onclick="closeNav()">Home</a>
+                <a href="#" onclick="closeNav()">Categories</a>
+                <a href="#" onclick="closeNav()">Best sellers</a>
+                <a href="#" onclick="closeNav()">Create account</a>
+                <a href="#" onclick="closeNav()">Contact</a>
+            </div>
+            <span class="burger" onclick="openNav()"><i class="fas fa-bars"></i></span>
+            <div class="logo">LOGO</div>
+            <div class="searchbox">
+                <form action="" accept-charset="UTF-8">
+                    <input type="text" placeholder="Search" class="search">
+                </form>
+                <i class="fas fa-search"></i>
+            </div>
+        </nav>
+        <div class="secondary-nav">
+            <div class="categories">
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Kids</a>
+                <a href="#">Lifestyle</a>
+                <a href="#">Accessories</a>
+            </div>
+            <div class="nav-icons">
+                <i class="fas fa-gift"></i>
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+        </div>
+        <div class="header">
+            <div class="images">
+                <img src="images/main.jpg" alt="Boots"><br>
+                <div class="gallery">
+                    <img src="images/1.jpg" alt="Boots1">
+                    <img src="images/2.jpg" alt="Boots2">
+                    <img src="images/3.jpg" alt="Boots3">
+                    <img src="images/4.jpg" alt="Boots4">
+                </div>
+            </div>
+            <div class="description">
+                <h1>LEVIS</h1>
+                Men Beige Solid Canvas Mid-Top Flat Boots
+                <div class="price">
+                    Rs. 2,599
+                    <s>Rs. 2,999</s>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    | <a href="#">Write a review</a>
+                </div><br>
+                <div class="size">
+                    Select size:<br>
+                    <button class="sizebut">7</button>
+                    <button class="sizebut">8</button>
+                    <button class="sizebut">9</button>
+                    <button class="sizebut">10</button>
+                    <button class="sizebut">11</button>
+                </div><br>
+                <div class="quantity">
+                    Quantity:<br>
+                    <select>
+                        <option>0</option><option>1</option><option>2</option><option>3</option><option>4</option>
+                    </select>
+                </div><br>
+                <button class="cart"><i class="fas fa-cart-plus"></i>
+                <b>ADD TO BAG</b></button>
+                <button class="wishlist"><i class="far fa-heart"></i>
+                <b>Add to wishlist</b></button>
+            </div>
+        </div><hr>
+        <div class="first">
+            <div class="first-text">
+                <h1>Description</h1>
+                A pair of round-toe beige flat boots, has mid-top styling,<br>lace-up detail.<br>
+                Canvas upper.<br>
+                Cushioned footbed.<br>
+                Textured and patterned outsole.<br>
+                A <strong>3 months</strong> warranty provided by the brand/manufacturer.<br><br>
+                <h1>Material & Care</h1>
+                Canvas.<br>
+                Comfort Insole.<br>
+                TPR sole.<br>
+                Wipe with a clean, dry cloth to remove dust.<br>
+            </div>
+            <img src="images/des1.jpg" alt="shoe">
+        </div><hr>
+        <div class="second">
+            <h1>Similar products</h1><br>
+            <div class="cards">
+                <div class="card1">
+                    <img src="images/sim1.jpg">
+                    <div class="card-text">
+                        <h3>Levis</h3>
+                        Men Flat Boots<br>
+                        <strong>Rs. 1949 </strong><s>Rs. 2999</s>
+                    </div>
+                </div>
+                <div class="card2">
+                    <img src="images/sim2.jpg">
+                    <div class="card-text">
+                        <h3>Levis</h3>
+                        Men Mid-Top Sneakers<br>
+                        <strong>Rs. 1949 </strong><s>Rs. 2999</s>
+                    </div>
+                </div>
+                <div class="card3">
+                    <img src="images/sim3.jpg">
+                    <div class="card-text">
+                        <h3>Levis</h3>
+                        Men Leather Flat Boots<br>
+                        <strong>Rs. 5399 </strong><s>Rs. 8999</s>
+                    </div>
+                </div>
+                <div class="card4">
+                    <img src="images/sim4.jpg">
+                    <div class="card-text">
+                        <h3>Levis</h3>
+                        Men Leather Mid-Top Boots<br>
+                        <strong>Rs. 7649 </strong><s>Rs. 8999</s>
+                    </div>
+                </div>
+            </div>
+        </div><hr>
+        <div class="third">
+            <h1>Customer Reviews:</h1><br>
+            Great product, Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, dicta?
+            <div class="review-gallery">
+                <img src="images/review1.JPG" width="90px" height="90px">
+                <img src="images/review2.JPG" width="90px" height="90px">
+            </div><br>
+            ABC XYZ | 10 Jan 2021<br><br>
+            <hr><br>
+            Good quality, Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, illo?
+            <img src="images/review3.JPG" width="90px" height="90px"><br>
+            XYZ ABC | 20 Dec 2020<br>
+        </div><hr>
+        <div class="fourth">
+            <h2>Contact us for any problem/suggestions.</h2>
+            <div class="contact-form">
+                <form action="" accept-charset="UTF-8">
+                    <input type="text" placeholder="Your Name" class="form-details"><br>
+                    <input type="email" placeholder="E-mail id" class="form-details"><br>                        <input type="number" placeholder="Mobile no." class="form-details"><br>
+                    <textarea placeholder="Issue faced by you / Suggestions"></textarea>
+                </form>
+                <a href=" "><button>Submit</button></a>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="logo logo-bottom">LOGO</div><hr>
+            <div class="footer-icons">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-youtube-square"></i>
+            </div>
+        </div>
+        <script src="res-product.js"></script>
+    </body>
+</html>
