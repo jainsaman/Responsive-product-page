@@ -376,8 +376,8 @@ hr{
         font-size: 15px;
     }
     hr{
-        width: 350px;
-        margin: 0 10px;
+        width: 90%;
+        margin: 0 5%;
     }
     .first{
         flex-direction: column-reverse;
